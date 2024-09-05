@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/getproducts"
+  from = "/*"
   to = "https://fakestoreapi.com/products"
   status = 200
   force = true
