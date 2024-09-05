@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "https://unique-beijinho-f532cd.netlify.app/products"
-  to = "https://fakestoreapi.com/"
+  from = "https://unique-beijinho-f532cd.netlify.app"
+  to = "https://fakestoreapi.com/products"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
