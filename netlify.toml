@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "https://unique-beijinho-f532cd.netlify.app/products"
+  to = "https://fakestoreapi.com/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
