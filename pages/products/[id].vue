@@ -10,7 +10,7 @@ definePageMeta({
 });
 
 const { id } = useRoute().params;
-const uri = "https://fakestoreapi.com/products/" + id;
+const uri = "https://unique-beijinho-f532cd.netlify.app/getproducts" + id;
 
 //Fetch Products
 const { data: product } = await useFetch(uri, { key: id });

@@ -19,7 +19,9 @@ useHead({
 });
 
 //Fetch Products
-const { data: products } = await useFetch("https://fakestoreapi.com/products");
+const { data: products } = await useFetch(
+  "https://unique-beijinho-f532cd.netlify.app/getproducts"
+);
 </script>
 
 <style scoped></style>
